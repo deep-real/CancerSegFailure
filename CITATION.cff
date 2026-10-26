@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "Please cite the associated paper when using MedFoE."
+title: 'Medical AI Encodes a "Feeling of Error": Verifying Cancer Segmentation via Internal Concepts'
+type: software
+authors:
+  - family-names: Ma
+    given-names: Mengmeng
+  - family-names: Peng
+    given-names: Yunxiang
+  - family-names: Li
+    given-names: Tang
+  - family-names: Lin
+    given-names: Lu
+  - family-names: Zhao
+    given-names: Binsheng
+  - family-names: Akin
+    given-names: Oguz
+  - family-names: Peng
+    given-names: Xi
+url: "https://arxiv.org/abs/2609.08879"
+version: 0.1.0

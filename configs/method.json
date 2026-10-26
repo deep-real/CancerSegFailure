@@ -1,0 +1,19 @@
+{
+  "method": "medfoe",
+  "reference": {
+    "checkpoint": "6200",
+    "concept_count_policy": "enabled",
+    "patch_failure_cutoff": 0.5,
+    "image_failure_cutoff": 0.5,
+    "region_success_cutoff": 0.7545278519392014
+  },
+  "proposal": {
+    "checkpoint": "10000",
+    "concept_count_policy": "disabled",
+    "patch_failure_cutoff": 0.65,
+    "image_failure_cutoff": 0.65,
+    "region_success_cutoff": 0.95
+  },
+  "fragment_removal_pixels": 256,
+  "reference_erosion_radius": 2
+}
