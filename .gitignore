@@ -1,0 +1,17 @@
+checkpoints/
+data/
+outputs/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+artifacts/
+runs/
+logs/
+wandb/
+*.log
+*.tfevents.*
+*.local.*
+.codex/
+.agents/
+AGENTS.md
+CLAUDE.md

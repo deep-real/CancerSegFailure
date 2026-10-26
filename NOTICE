@@ -1,0 +1,16 @@
+MedFoE uses the following third-party source. Original MedFoE code is MIT-licensed.
+
+Segment Anything: Copyright (c) Meta Platforms, Inc. and affiliates.
+https://github.com/facebookresearch/segment-anything
+Apache-2.0: LICENSES/segment-anything-Apache-2.0.txt
+The vendored Python files retain their original copyright headers.
+
+HarDNet: Copyright (c) 2020 NEUCHIPS CORPORATION. All rights reserved.
+https://github.com/PingoLH/Pytorch-HarDNet
+MIT: LICENSES/hardnet-MIT.txt
+The feature-return adaptation is in medfoe/hardnet.py.
+
+BatchTopK SAE inference: Copyright (c) 2024 saprmarks.
+https://github.com/saprmarks/dictionary_learning
+MIT: LICENSES/dictionary-learning-MIT.txt
+The saved-threshold encoder is adapted in medfoe/sae.py.

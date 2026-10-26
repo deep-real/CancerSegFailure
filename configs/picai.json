@@ -1,0 +1,37 @@
+{
+  "method_config": "method.json",
+  "segmentation_checkpoint": "../checkpoints/segmentation.pth",
+  "saes": {
+    "6200": {
+      "11": "../checkpoints/sae/6200/layer_11.pt",
+      "9": "../checkpoints/sae/6200/layer_9.pt",
+      "7": "../checkpoints/sae/6200/layer_7.pt",
+      "5": "../checkpoints/sae/6200/layer_5.pt",
+      "3": "../checkpoints/sae/6200/layer_3.pt",
+      "1": "../checkpoints/sae/6200/layer_1.pt"
+    },
+    "10000": {
+      "11": "../checkpoints/sae/10000/layer_11.pt",
+      "9": "../checkpoints/sae/10000/layer_9.pt",
+      "7": "../checkpoints/sae/10000/layer_7.pt",
+      "5": "../checkpoints/sae/10000/layer_5.pt",
+      "3": "../checkpoints/sae/10000/layer_3.pt",
+      "1": "../checkpoints/sae/10000/layer_1.pt"
+    }
+  },
+  "primary_detectors": {
+    "patch_detector": "../checkpoints/detectors/6200/patch_detector.joblib",
+    "patch_scaler": "../checkpoints/detectors/6200/patch_scaler.joblib",
+    "image_detector": "../checkpoints/detectors/6200/image_detector.joblib",
+    "image_scaler": "../checkpoints/detectors/6200/image_scaler.joblib"
+  },
+  "proposal_detectors": "../checkpoints/detectors/10000.joblib",
+  "boundary_model": "../checkpoints/boundary.joblib",
+  "baseline_thresholds": {
+    "direct_threshold": 0.8,
+    "max_prob": 0.10617715120315552,
+    "mean_prob": 0.31173901442242635,
+    "entropy": 0.8564896279505987,
+    "energy": -1.2275495712922377
+  }
+}
